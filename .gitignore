@@ -1,0 +1,2 @@
+# don't commit course-info folder.
+.course-info/*
