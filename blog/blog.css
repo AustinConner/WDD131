@@ -1,31 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 :root {
     --bg-color: #fffdf7;
-    --text-color:  #1A181B;
+    --text-color:  #473144;
     --link-color: #a9e4ef;
-    --nav-color: #3F6A11;
+    --nav-color: #AF1B3F;
     --nav-hover: #FBB13C;
-    --border-color: #3185FC;
+    --border-color: #EFC69B;
     --book-title-color: var(--nav-color);
-    --site-title-color: var(--nav-color);
     --cta-color:  var(--nav-color);
     --bg-color: #FCFCFC;
 
     --border: 2px solid var(--border-color);
+
+    /* ---------- FONTS ---------- */
+    --heading-font: "Lora", Impact, serif;
+    --body-font: Helvetica, Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box 
 }
 
 body {
     margin: 0px;
     background-color: var(--bg-color);
+    font-family: var(--body-font);
+    color: var(--text-color);
 }
 
 #site-title {
     font-size: 35px;
     text-align: center;
-    font-family: "Lato", serif;
-    font-weight: 900;
-    font-style: normal;
-    color: var(--title-color);
+    font-family: var(--heading-font);
+    color: var(--text-color);
     padding: 10px;
 }
 
@@ -35,7 +43,6 @@ body {
     justify-content: end;
     border-top: var(--border);
     border-bottom: var(--border);
-    font-family: "Lato", serif;
     font-weight: 700;
     font-style: bold;
     list-style: none;
@@ -56,8 +63,11 @@ body {
 
 main {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    justify-content: center;
+    grid-template-columns: 2fr 1fr; 
+    grid-template-rows: auto;      
+    gap: 20px;                   
+    align-items: start;
+    grid-auto-flow: column;         
 }
 
 #filters {
@@ -66,18 +76,20 @@ main {
     justify-self: end;
     margin-right: 20px;
     padding: 10px;
-
-    font-family: "Lato", serif;
     font-weight: 400;
     font-style: normal;
-}
+    grid-row: 1/-1;
+    height: 100%;
+}   
 
 
 .book-review {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 20px;
-    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
 }
 
 .book-content {
@@ -87,8 +99,8 @@ main {
 
 .book-title {
     margin-top: 0px;
+    font-family: var(--heading-font);
     color: var(--book-title-color);
-    font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: normal;
 }
@@ -99,7 +111,6 @@ main {
 }
 
 .book-description {
-    font-family: "Lato", serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -115,7 +126,6 @@ main {
     list-style: none;
     padding: 0px;
     margin: 0px;
-    font-family: "Lato", serif;
     font-weight: 500;
     font-style: normal;
 }
