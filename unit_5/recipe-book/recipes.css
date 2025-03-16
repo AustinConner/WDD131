@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+:root {
+--primary-color: #1B98E0;
+--secondary-color: #59c3c3;
+--text-dark: #333;
+--text-light: #ebebeb;
+--primary-font: Arial, Helvetica,sans-serif;
+--secondary-font: "Playpen Sans";
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;
+}
+
+#site-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px; 
+}
+
+#site-logo img {
+    max-width: 50px; 
+    height: auto;
+}
+
+#site-logo h1 {
+    margin-left: 10px;
+    font-family: var(--secondary-font), sans-serif;
+    font-size: 2.3rem; /* Adjust font size as needed */
+}
+
+#searchbar {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 40px;
+    width: 90%;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#searchbar input {
+    flex: 1;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#searchbar button {
+    all: unset;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    width: 20px;
+    border: 2px solid black;
+    border-radius: 0px 5px 5px 0px; 
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-family: var(--secondary-font);
+    font-size: 1.8rem;
+}
+
+.recipe-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px; 
+    border: 2px solid black;
+    padding: 30px;
+}
+
+.recipe-content {
+    align-items: left;
+}
+
+.recipe-image {
+    width: 98%;
+}
+
+.recipe-title {
+    color: var(--primary-color)
+}
+
+.recipe-tags {
+    display: flex;
+}
+
+.recipe-tag {
+    border: 2px solid black;
+    padding: 5px 20px;
+    font-family: var(--primary-font);
+    font-size: 1.4rem;
+}
+
+.description {
+    font-family: var(--primary-font);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.social img {
+    width: 50px
+}
+
+@media (max-width: 500px) {
+    .description {
+        display: none;
+    }
+}
+
+@media (min-width: 500px) {
+    .recipe-image {
+        width: 60%;
+        max-width: 600px;
+        padding: 20px
+    }
+
+    .recipe-card {
+        flex-direction: row;
+        padding: 0;
+    }
+
+    .recipe-content {
+        width: 100%;
+        padding-right: 10px;
+    }
+
+    #searchbar {
+        width: 97%;
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .social {
+        order: 1
+    }
+}
