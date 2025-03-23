@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashThing Showcase</title>
+    <link rel="stylesheet" href="site-plan.css">
+</head>
+<body>
+    <header>
+        <h1>DashThing Showcase</h1>
+        <p>Austin Conner - WDD 131</p>
+    </header>
+
+    <section class="section">
+        <h2 class="section-title">Overview</h2>
+        <h3>Purpose:</h3>
+        <p>The purpose of this website is to showcase <strong>DashThing</strong>, an open-source, customizable dashboard solution designed for both personal and team use. This site will use DashThing itself to dynamically display its features and demonstrate how it works.</p>
+        
+        <p>The website will showcase how DashThing can be used to:</p>
+        <ul>
+            <li>Organize and manage links, tools, and information using a dynamic, customizable dashboard.</li>
+            <li>Provide documentation and guides on how users can set up and customize their own DashThing instance.</li>
+            <li>Offer a live demo of DashThing to show off its key features in action.</li>
+        </ul>
+
+        <h3>Audience:</h3>
+        <p>Individuals or teams who need a dedicated and customizable page to organize their personal or company resources.</p>
+
+        <h3>Dynamic Elements:</h3>
+        <p>This site is powered by DashThing, and its dynamic features include:</p>
+        <ul>
+            <li><b>Client-Side Dynamic Navigation</b> - A navigation/sidebar that is configured in one place and applies across the entire site, making it easy to update.</li>
+            <li><b>Phonetic Breakdown Tool</b> - A tool that converts text to the NATO phonetic alphabet, useful for environments like call centers. This is displayed as part of the dashboard demo.</li>
+            <li><b>Dynamic Link Cards</b> - Link cards displayed on the dashboard homepage, created from config files. These links will lead to different websites as specified by the user.</li>
+            <li><b>Favorites</b> - Users can save their most frequently used links to a "Favorites" section that is stored locally and persists across sessions.</li>
+            <li><b>Search to Launch</b> - A search bar that allows users to search for and launch apps or pages configured within DashThing.</li>
+            <li><b>Light/Dark Mode</b> - Users can toggle between light and dark modes, with their preference saved to LocalStorage for future visits.</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Branding</h2>
+        <h3>Website Logo</h3>
+        <img src="logo.svg">
+    </section>
+
+    <section class="section color-palettes">
+        <h2 class="section-title">Style Guide</h2>
+        <h3>Color Palette</h3>
+        <h4>Light mode:</h4>
+        <div class="palette">
+            <div class="color">
+                <div class="color-swatch" style="background-color: #090e15;"></div>
+                <div class="badge">Text</div>
+                <div class="color-hex">#090e15</div>
+            </div>
+            <div class="color">
+                <div class="color-swatch" style="background-color: #f8f9fa;"></div>
+                <div class="badge">Background</div>
+                <div class="color-hex">#f8f9fa</div>
+            </div>
+            <div class="color">
+                <div class="color-swatch" style="background-color: #0e429a;"></div>
+                <div class="badge">Primary</div>
+                <div class="color-hex">#0e429a</div>
+            </div>
+            <div class="color">
+                <div class="color-swatch" style="background-color: #88a7dd;"></div>
+                <div class="badge">Secondary</div>
+                <div class="color-hex">#88a7dd</div>
+            </div>
+            <div class="color">
+                <div class="color-swatch" style="background-color: #3965b1;"></div>
+                <div class="badge">Accent</div>
+                <div class="color-hex">#3965b1</div>
+            </div>
+        </div>
+
+        <h4>Dark Mode:</h4>
+        <div class="palette">
+            <div class="color">
+                <div class="color-swatch" style="background-color: #eaeff6;"></div>
+                <div class="badge">Text</div>
+                <div class="color-hex">#eaeff6</div>
+            </div>
+            <div class="color">
+                <div class="color-swatch" style="background-color: #040506;"></div>
+                <div class="badge">Background</div>
+                <div class="color-hex">#040506</div>
+            </div>
+            <div class="color">
+                <div class="color-swatch" style="background-color: #6598f1;"></div>
+                <div class="badge">Primary</div>
+                <div class="color-hex">#6598f1</div>
+            </div>
+            <div class="color">
+                <div class="color-swatch" style="background-color: #224177;"></div>
+                <div class="badge">Secondary</div>
+                <div class="color-hex">#224177</div>
+            </div>
+            <div class="color">
+                <div class="color-swatch" style="background-color: #4e7ac6;"></div>
+                <div class="badge">Accent</div>
+                <div class="color-hex">#4e7ac6</div>
+            </div>
+            <a href="https://www.realtimecolors.com/dashboard?colors=090e15-f9fafb-0e429a-88a7dd-3965b1&fonts=Inter-Inter">Color palette + additional shades</a>
+        </div>
+        <h3 class="section-title">Typography</h3>
+        <h4>Heading Font: <span class="merriweather">Merriweather</span></h4>
+        <h4>Paragraph Font: Arial</h4>
+
+        <h3 class="section-title">Examples</h3>
+        <h4>Normal Paragraph:</h4>
+            <p>DashThing is an open-source, customizable dashboard solution that empowers users to organize their digital workspace. With DashThing, users can configure the dashboard by editing a simple config file, which loads links directly into the homepage for quick access. Whether you're managing personal projects or collaborating with a team, you can also create different pages that appear in the navigation sidebar, keeping everything organized and easy to navigate. The phonetic breakdown tool is a demonstration feature, showcasing DashThing’s ability to adapt to different use cases. Designed from the ground up for flexiblity and simplicity - DashThing is the perfect platform for anyone looking to personalize and create their own unique dashboard experience.</p>
+        <h4 style="margin-top: 10px">Colored Paragraph:</h4>
+         <p style="background-color:#d7e1f2; padding: 10px;"><b>DashThing</b> gives you full control over your dashboard experience. With a simple config file, you can easily organize and display your most important links, create custom pages, and tailor the layout to suit your personal or team needs. Whether you’re building a dashboard for quick access to frequently used tools or creating an organized space for team collaboration, DashThing is flexible enough to handle it all. Plus, with local storage support, your settings persist across each visit, making it <i>even easier</i> to keep everything in one place.</p>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Content</h2>
+        <h3>Home:</h3>
+        <p>Welcome to DashThing! <br> Your Customizable Dashboard Solution. <br> {button}Learn More <br> {button}Get Started </p>
+
+        <h3>About:</h3>
+        <p>About DashThing <br>
+
+            DashThing is an open-source, customizable dashboard solution designed for both personal and team use. It lets you easily organize links, apps, and resources in one clean, dynamic interface. With DashThing, you can configure your dashboard via a simple config file, customize the layout, and create multiple pages to stay organized.
+            
+            Whether you're managing personal resources or collaborating with a team, DashThing offers a flexible, lightweight solution that adapts to your needs. Its simple setup, customizable themes, and intuitive design ensure that you can access what matters most with minimal effort.
+            <br>Ready to Get Started? {button} Let's do this!</p>
+
+        <h3>Docs</h3>
+        <p>!!!! WIP !!!! Will complete when site is coded out and complete. Not sure how the JS is going to function exactly quite yet.</p>
+
+        <h3>Phonetic Breakdown</h3>
+        <p>The Phonetic Breakdown Tool makes it easy to turn any text into the NATO phonetic alphabet. It’s perfect for situations where you need to spell things out clearly, like on a phone call or when giving important information. Just type in your text, and the tool quickly gives you the phonetic version, helping avoid any confusion.</p>
+
+        <h3>Sample Dashboard</h3>
+        <p>Will contain link cards to external pages.</p>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Wireframes</h2>
+        <h3>Home:</h3>
+        <img src="Wireframe-Home (index.html).png">
+
+        <h3>About:</h3>
+        <img src="Wireframe-About (about.html).png">
+
+        <h3>Docs:</h3>
+        <img src="Wireframe-Docs (docs.html).png"> 
+
+        <h3>Phonetic Breakdown:</h3>
+        <img src="Wireframe-Phonetic Breakdown (phoneticbreakdown.html).png">
+
+        <h3>Sample Dashboard:</h3>
+        <img src="Wireframe-Same Dashboard (dash.html).png">
+
+    </section>
+
+
+    <footer>
+        <p>&copy; 2025 Austin Conner. All rights reserved.</p>
+    </footer>
+</body>
+</html>

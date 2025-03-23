@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+}
+
+/* Section Styling */
+.section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;  /* Slightly reduce the width to fit better */
+    max-width: 1000px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Styling */
+.section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Section Titles */
+.section-title {
+    text-align: center;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+/* Color Palette Section */
+.palette {
+    display: flex;
+    flex-wrap: wrap; /* Allows the colors to wrap into new rows */
+    gap: 20px; /* Increased gap between color swatches */
+    justify-content: center; /* Centers the items within the container */
+    margin-top: 20px;
+}
+
+.color {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the swatches and text */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.color-swatch {
+    width: 80px;
+    height: 80px; /* Adjusted for better visibility */
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: 4px solid #333;
+}
+
+.badge {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.color-hex {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+/* Style the unordered list */
+ul {
+    list-style-type: disc;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+ul li {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+
+.merriweather {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    font-size: 30px;
+  }
