@@ -1,0 +1,1 @@
+// generate the navigation items based on the config

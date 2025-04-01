@@ -1,0 +1,1 @@
+// allow users to favorite dash items
