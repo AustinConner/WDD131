@@ -1,0 +1,1 @@
+// Settings function that allows users to generate UUIDs for various function required for configuration.

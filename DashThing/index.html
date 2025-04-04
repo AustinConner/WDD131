@@ -5,18 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DashThing</title>
     <link rel="stylesheet" href="./assets/styles/main.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          lucide.createIcons();
+        });
+      </script>
 </head>
 <body>
     <nav id="main-nav">
         <img id="logo" src="assets/images/ui/logo.svg" alt="DashThing logo">
         <ul id="nav-items">
-            <li><a href=""></a>Home</li>
-            <li><a href=""></a>About</li>
-            <li><a href=""></a>Docs</li>
-            <li><a href=""></a>Phonetic Breakdown</li>
-            <li><a href=""></a>Sample Dashboard</li>
+            <li class="active-nav"><a href=""></a><i data-lucide="house"></i> Home</li>
+            <li><a href=""></a><i data-lucide="info"></i> About</li>
+            <li><a href=""></a><i data-lucide="book-open"></i> Docs</li>
+            <li><a href=""></a><i data-lucide="pocket-knife"></i> Phonetic Breakdown</li>
+            <li><a href=""></a><i data-lucide="layout-dashboard"></i> Sample Dashboard</li>
         </ul>
-        <div id="settings">THIS IS SOME SETTINGS!</div>
+        <div id="settings"><i data-lucide="settings"></i></div>
     </nav>
     <main>
         <h1>Welcome to DashThing!</h1>
