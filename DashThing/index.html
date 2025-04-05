@@ -5,25 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DashThing</title>
     <link rel="stylesheet" href="./assets/styles/main.css">
+    <script type="module" src="scripts/components/makeNav.js"></script>
+    <script type="module" src="scripts/main.js"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <script>
-        document.addEventListener("DOMContentLoaded", () => {
-          lucide.createIcons();
-        });
-      </script>
+      lucide.createIcons();
+    </script>
 </head>
-<body>
-    <nav id="main-nav">
+<body class="js-loading">
+    <!-- <nav id="main-nav">
         <img id="logo" src="assets/images/ui/logo.svg" alt="DashThing logo">
         <ul id="nav-items">
             <li class="active-nav"><a href=""></a><i data-lucide="house"></i> Home</li>
-            <li><a href=""></a><i data-lucide="info"></i> About</li>
+            <a href="google.com"><li><i data-lucide="info"></i> About</li></a>a
             <li><a href=""></a><i data-lucide="book-open"></i> Docs</li>
             <li><a href=""></a><i data-lucide="pocket-knife"></i> Phonetic Breakdown</li>
             <li><a href=""></a><i data-lucide="layout-dashboard"></i> Sample Dashboard</li>
         </ul>
         <div id="settings"><i data-lucide="settings"></i></div>
-    </nav>
+    </nav>  -->
     <main>
         <h1>Welcome to DashThing!</h1>
         <p>Your Customizable Dashboard Solution.</p>

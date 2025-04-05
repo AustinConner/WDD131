@@ -150,7 +150,6 @@ body {
 } */
 
 #nav-items li {
-  padding: 8px;
   width: 100%;
   border-radius: 6px;
   margin: 0px;
@@ -159,9 +158,24 @@ body {
   transition: border-color 0.4s ease-in-out, background-color 0.25s ease-in-out;
 }
 
+#nav-items a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0px;
+  padding: 8px;
+  display: flex;  /* Keep the flex layout */
+  align-items: center;
+  text-align: left;
+  gap: 10px;
+  width: 100%;  /* Make the <a> take up the full width */
+  height: 100%;  /* Make the <a> take up the full height */
+  box-sizing: border-box;  /* Ensures padding is included in width/height */
+}
+
 #nav-items li:not(.active-nav) {
   background-color: var(--background-100);
 }
+
 .active-nav {
   background-color: var(--primary-200);
   border-right: solid 8px var(--accent-500) !important;

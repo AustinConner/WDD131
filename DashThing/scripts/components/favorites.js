@@ -1,3 +1,4 @@
+// MODULE
 // Allow users to favorite dashboard items
 // Get favorites from local storage
 function getFavorites() {

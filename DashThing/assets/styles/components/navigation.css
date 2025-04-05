@@ -13,14 +13,6 @@
     list-style: none;
     gap: 20px;
 }
- 
-#nav-items li {
-    padding: 7px;
-    text-align: left;
-    display: flex;
-    align-items: center;
-    gap: 8px
-}
 
 #main-nav {
     display: grid;

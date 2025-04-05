@@ -9,7 +9,7 @@ body {
     display: grid;
     align-items: start;
     grid-template-columns: 200px 1fr;
-    gap: 2rem
+    gap: 1.5rem
 }
 
 #main-nav {

@@ -1,37 +1,33 @@
 // CONFIG //
 // Specify nav items with their destination
-const navItems = [{
+export const pages = [{
     tabName: "Home",
     lucideIcon: "house",
-    link: "page.html"
+    link: "index.html",
+    pageTitle: "Home - DashThing"
 },
 {
     tabName: "About",
     lucideIcon: "info",
-    link: "about.html"
+    link: "about.html",
+    pageTitle: "About - DashThing"
 },
 {
     tabName: "Docs",
     lucideIcon: "book-open",
-    link: "docs.html"
+    link: "docs.html",
+    pageTitle: "Docs - DashThing"
 },
 {
     tabName: "Phonetic Breakdown",
     lucideIcon: "pocket-knife",
-    link: "breakdown.html"
+    link: "breakdown.html",
+    pageTitle: "Phonetic Breakdown - DashThing"
 },
 {
     tabName: "Sample Dashboard",
     lucideIcon: "layout-dashboard",
-    link: "sampledash.html"
+    link: "sampledash.html",
+    pageTitle: "Sample Dashboard - DashThing"
 }
 ]
-
-
-
-
-
-/////////////////////////////////////////////////////////
-// Do not change content below this line.              //        
-/////////////////////////////////////////////////////////
-export default navItems;
