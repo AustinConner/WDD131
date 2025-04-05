@@ -5,6 +5,7 @@ import * as logo from "../../config/logo.js"
 
 function makeNavItems(tab, icon, url, pageTitle) {
     const navItem = document.createElement("li")
+    navItem.classList.add("hidden-load")
     navItem.innerHTML = `
     <a href=${url}><i data-lucide=${icon}></i>${tab}</a>
     `
@@ -26,13 +27,33 @@ function getActivePage() {
 // Create main nav container
 const mainNav = `
 <nav id="main-nav">
-  <img id="logo" src="${logo.lightLogo}" alt="${logo.logoAlt}">
+  <img class="hidden-load" id="logo" src="${logo.lightLogo}" alt="${logo.logoAlt}">
   <ul id="nav-items"></ul>
 </nav>
 `
 document.body.insertAdjacentHTML('afterbegin', mainNav)
 
+// Add settings to nav
+const settingsElement = document.createElement("div")
+settingsElement.id = "settings"
+settingsElement.innerHTML = `<i data-lucide="settings"></i>`
+settingsElement.classList.add("hidden-load")
+document.getElementById("main-nav").insertAdjacentElement('afterend', settingsElement)
+
+
 // Add items to navigation
 pages.forEach((item) => {
     makeNavItems(item.tabName, item.lucideIcon, item.link, item.pageTitle)
+});
+
+document.getElementById("main-nav").appendChild(settingsElement)
+
+window.addEventListener('load', function() {
+  // Select all elements with the 'hidden-load' class
+  const hiddenElements = document.querySelectorAll('.hidden-load');
+
+  // Loop through each element and remove the 'hidden-load' class
+  hiddenElements.forEach(function(element) {
+    element.classList.remove('hidden-load');
+  });
 });
