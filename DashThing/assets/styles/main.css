@@ -1,4 +1,4 @@
 @import "./layouts/desktop.css";
 @import "./components/navigation.css";
-@import "./base/themes.css"
-
+@import "./base/themes.css";
+@import "./components/settings.css"

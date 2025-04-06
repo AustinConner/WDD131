@@ -20,4 +20,4 @@ export const localstore = {
     del: function (key) {
         localStorage.del(key)
     }
-}
+} 

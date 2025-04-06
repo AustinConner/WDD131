@@ -22,3 +22,19 @@
 .hidden-load {
     display: none;
   }
+
+  #openBtn {
+    all: unset; 
+    display: inline-flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 0; 
+    background: transparent; 
+    border: none; 
+    cursor: pointer; 
+}
+
+#openBtn svg {
+    width: 28px; /* Set size of the icon */
+    height: 28px; /* Set size of the icon */
+}

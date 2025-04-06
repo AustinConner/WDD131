@@ -4,8 +4,7 @@
   --ui-opacity: .8;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
+:root {
     --text-50: rgb(237, 241, 247);
     --text-100: rgb(219, 228, 240);
     --text-200: rgb(184, 201, 224);
@@ -68,9 +67,8 @@
     --accent-950: rgb(6, 11, 19);
 
   }
-}
-@media (prefers-color-scheme: dark) {
-  :root {
+
+[data-theme='dark'] {
     --text-50: rgb(8, 12, 18);
     --text-100: rgb(15, 24, 36);
     --text-200: rgb(31, 48, 71);
@@ -131,9 +129,11 @@
     --accent-800: rgb(178, 197, 230);
     --accent-900: rgb(216, 226, 243);
     --accent-950: rgb(236, 241, 249);
-
+    logo {
+      filter: brightness(5.5);
+    }
   }
-}
+
 
 body {
     background-color: var(--background-50);

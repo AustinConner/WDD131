@@ -7,32 +7,18 @@
     <link rel="stylesheet" href="./assets/styles/main.css">
     <link rel="stylesheet" href="./assets/styles/components/dashboard.css">
     <script type="module" src="scripts/components/page.js"></script>
+    <script src="scripts/components/theme.js"></script>
+    <script src="scripts/components/settings.js"></script>
     <script type="module" src="scripts/main.js"></script>
+    <script type="module" src="scripts/dash.js"></script>
+    <script type="module" src="scripts/components/settings.js" defer></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <script>
          document.addEventListener("DOMContentLoaded", () => {lucide.createIcons();});
     </script>
 </head>
 <body>
-    <main class="hidden-load">
-      <section class="favorite-apps">
-        <h1>⭐ Favorites ⭐</h1>
-        <div class="section-container">
-        <div class="card">
-          <a href="app.link">
-            <img src="img.jpg">
-            <i data-lucide="star"></i>
-            <h2>ChatGPT</h2>
-          </a>
-        </div>
-        <div class="card">app</div>
-        <div class="card">app</div>
-        <div class="card">app</div>
-      </div>
-      </section>
-      <section>
-        <h1>DashThing Apps</h1>
-      </section>
+    <main class="hidden-load" id="main-container">
     </main>
 </body>
 </html>
