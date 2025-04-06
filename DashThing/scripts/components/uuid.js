@@ -1,5 +1,5 @@
 // Settings function that allows users to generate UUIDs for various function required for configuration.
-
+//WIP will allow user to generate UUID for the on there page.
 function generateBase64ShortID(length = 5) {
     const randomBytes = new Uint8Array(16);
     crypto.getRandomValues(randomBytes);
