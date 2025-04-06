@@ -129,7 +129,7 @@
     --accent-800: rgb(178, 197, 230);
     --accent-900: rgb(216, 226, 243);
     --accent-950: rgb(236, 241, 249);
-    logo {
+    #logo {
       filter: brightness(5.5);
     }
   }

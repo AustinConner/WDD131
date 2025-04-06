@@ -10,13 +10,136 @@
     <script src="https://unpkg.com/lucide@latest"></script>
     <script src="scripts/components/theme.js"></script>
     <script src="scripts/components/settings.js"></script>
+    <link rel="stylesheet" href="assets/styles/components/docs.css">
     <script>
          document.addEventListener("DOMContentLoaded", () => {lucide.createIcons();});
     </script>
 </head>
 <body>
     <main class="hidden-load" id="main-container">
-        
+        </style>
+        <h1>Project Documentation</h1>
+    <p>Welcome to the documentation for your dynamic navigation system and app dashboard.</p>
+  </header>
+
+  <!-- Introduction Section -->
+  <section id="intro">
+    <h2>Introduction</h2>
+    <p>This project provides a modern, responsive web application with a dynamic navigation system. You can easily add new pages, configure navigation items, and manage user settings.</p>
+  </section>
+
+  <!-- Getting Started Section -->
+  <section id="getting-started">
+    <h2>Getting Started</h2>
+    <p>To use the project, follow these simple steps:</p>
+    <ul>
+      <li>Clone the repository or download the project files.</li>
+      <li>Ensure all required dependencies are installed, such as JavaScript libraries.</li>
+      <li>Open the <code>index.html</code> file in your browser to see the app in action.</li>
+    </ul>
+  </section>
+
+  <!-- Navigation Explanation -->
+  <section id="navigation">
+    <h2>Navigation</h2>
+    <p>Your project includes a responsive navigation system, which adjusts based on the user's device and preferences. The main components of the nav are:</p>
+    <ul>
+      <li><strong>Logo:</strong> A customizable logo that appears at the top of the page. The logo is set via JavaScript in the <code>logo.js</code> configuration.</li>
+      <li><strong>Nav Items:</strong> Dynamic links created based on the <code>pages.js</code> config. These links point to various sections of the app.</li>
+      <li><strong>Search Bar:</strong> A search input field to filter the navigation links (more functionality can be added for filtering).</li>
+    </ul>
+    <p>Example code to create a nav item:</p>
+    <pre>
+      <code>
+        makeNavItems('Example Tab', 'example-icon', '/example', 'Example Page');
+      </code>
+    </pre>
+  </section>
+
+  <!-- Styling Guide Section -->
+  <section id="styling">
+    <h2>Styling</h2>
+    <p>The app uses a modern, minimal styling approach that is consistent across all components. Key styling elements include:</p>
+    <ul>
+      <li><strong>Responsive Design:</strong> The layout adapts to different screen sizes, with a focus on mobile-first styling.</li>
+      <li><strong>Custom Themes:</strong> You can switch between light and dark themes using the settings menu.</li>
+      <li><strong>Hover Effects:</strong> Interactive elements, such as cards and navigation items, have hover effects to enhance user experience.</li>
+    </ul>
+    <p>Example of card styling:</p>
+    <pre>
+      <code>
+        .card-container {
+          background-color: var(--background-200);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          border-radius: 6px;
+          overflow: hidden;
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+          transition: transform 0.3s ease;
+        }
+
+        .card-container:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+      </code>
+    </pre>
+  </section>
+
+  <!-- Adding New Pages Section -->
+  <section id="adding-pages">
+    <h2>Adding New Pages</h2>
+    <p>To add a new page to the navigation, you will need to update the <code>pages.js</code> config file. Here’s how:</p>
+    <ul>
+      <li>Add a new entry to the <code>dashboardApps</code> array with the page name, icon, URL, and section ID.</li>
+      <li>Use the <code>makeNavItems</code> function to add the page to the nav.</li>
+      <li>For example:</li>
+    </ul>
+    <pre>
+      <code>
+        const newPage = {
+          name: 'New Page',
+          icon: 'new-icon',
+          url: '/new-page',
+          sectionid: '2345',
+          id: '12345'
+        };
+        makeNavItems(newPage.name, newPage.icon, newPage.url, 'New Page Title');
+      </code>
+    </pre>
+  </section>
+
+  <!-- Settings Section -->
+  <section id="settings">
+    <h2>Settings</h2>
+    <p>The app includes a settings menu that allows users to customize their experience:</p>
+    <ul>
+      <li><strong>Choose Theme:</strong> Select between light and dark modes.</li>
+      <li><strong>Enable Notifications:</strong> Toggle notifications on or off.</li>
+    </ul>
+    <p>Example settings menu:</p>
+    <pre>
+      <code>
+        <label for="theme">Choose Theme:</label>
+        <select id="theme">
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </select>
+      </code>
+    </pre>
+  </section>
+
+  <!-- Conclusion Section -->
+  <section id="conclusion">
+    <h2>Conclusion</h2>
+    <p>This documentation covers the essential elements of the app, including navigation, styling, and how to add new pages. The system is flexible, and you can easily extend it to fit your needs.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Project Name</p>
+  </footer>
+
     </main>
 </body>
 </html>

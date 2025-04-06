@@ -5,18 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DashThing</title>
     <link rel="stylesheet" href="./assets/styles/main.css">
+    <link rel="stylesheet" href="./assets/styles/components/phoneticbreakdown.css">
+    <link rel="stylesheet" href="./assets/styles/components/dashboard.css">
     <script type="module" src="scripts/components/page.js"></script>
     <script type="module" src="scripts/main.js"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <script src="scripts/components/theme.js"></script>
     <script src="scripts/components/settings.js"></script>
+    <script src="scripts/components/phonetic-breakdown.js"></script>
     <script>
          document.addEventListener("DOMContentLoaded", () => {lucide.createIcons();});
     </script>
 </head>
 <body>
     <main class="hidden-load" id="main-container">
-        
-    </main>
+        <div class="section-container">
+        <h1>Phonetic Breakdown</h1>
+        <p>The Phonetic Breakdown Tool makes it easy to turn any text into the NATO phonetic alphabet. It’s perfect for situations where you need to spell things out clearly, like on a phone call or when giving important information. Just type in your text, and the tool quickly gives you the phonetic version, helping avoid any confusion.</p>
+        <h2>Type a word/phrase to convert</h2>
+        <input id="breakdown-input" class="hidden-load" type="text" placeholder="Search..." />
+        </div>
+        <div class="section-container " id="result-container">
+            <h2>Conversion:</h2>
+            <div id="table-output">
+
+            </div>
+        </div>
+        </main>
 </body>
 </html>

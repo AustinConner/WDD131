@@ -1,0 +1,68 @@
+/* Main container for layout */
+#main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: var(--background);
+    gap: 20px
+}
+
+section {
+    background-color: var(--background-opaque);
+    padding: 20px;
+    width: 80%;
+    max-width: 1200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border: 2px solid var(--background-200);
+    box-shadow: 0 4px 10px var(--shadow-color);
+    transition: all 0.3s ease-in-out;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--heading-color);
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--heading-color);
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.highlight {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+pre code {
+    display: block;
+    background: var(--background-200);
+    white-space: pre;
+    -webkit-overflow-scrolling: touch;
+    max-width: 100%;
+    min-width: 100px;
+    padding: 0;
+  }
+
+#main-container ul {
+    list-style-position: inside; /* Makes the bullets part of the padding */
+}
+
+#main-container li {
+    padding-left: 20px; /* Adjust the value to your desired indentation */
+}

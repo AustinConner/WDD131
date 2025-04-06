@@ -1,0 +1,71 @@
+#main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+
+}
+
+section {
+    background-color: var(--background-opaque);
+    padding: 20px;
+    height: 100%;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: solid 2px var(--background-200);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    align-items: center;
+} 
+
+h1 {
+    font-size: 32px;
+    font-weight: bold
+}
+
+p {
+    line-height: 1.5;
+    
+}
+
+.color {
+    background-color: var(--accent-200);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: var(--primary-600);
+    text-decoration: underline; 
+}
+
+.big {
+    font-family: "Merriweather", serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: var(--primary-800);
+}
+
+.button {
+    text-decoration: none;
+    background-color: var(--primary-500);
+    color: var(--text-50);
+    width: 30vw;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    border: solid 5px rgba(0, 0, 0, 0);
+    transition: all 2s;
+}
+
+.button:hover {
+    background-color: var(--primary-800);
+    border: solid 5px var(--primary-500);
+    transition: border .5s ease-in-out, background-color .5s ease-in-out, scale .7s ease-in-out;
+    scale: 1.1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

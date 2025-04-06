@@ -11,10 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
         event.preventDefault(); // Prevent form submission if you're not actually submitting it
 
         const theme = settingsForm.querySelector('#theme').value; // Get the selected theme value
-        const notifications = settingsForm.querySelector('#notifications').checked; // Get the checkbox value
 
         console.log('Theme:', theme);
-        console.log('Notifications enabled:', notifications);
         localStorage.setItem("themePreference", theme)
         // Close settings menu when the close button is clicked
     settingsPopup.style.display = 'none'; // Hide settings menu

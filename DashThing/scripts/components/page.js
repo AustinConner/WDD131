@@ -64,10 +64,6 @@ settingsMenu.innerHTML = `
         </select>
         <br><br>
 
-        <label for="notifications">Enable Notifications:</label>
-        <input type="checkbox" id="notifications" name="notifications">
-        <br><br>
-
         <button type="button" id="saveBtn">Save</button>
     </form>
 </div>
