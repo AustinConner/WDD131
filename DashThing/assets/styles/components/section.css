@@ -54,18 +54,42 @@ p {
     text-decoration: none;
     background-color: var(--primary-500);
     color: var(--text-50);
-    width: 30vw;
-    padding: 20px;
+    width: 20vw;
+    padding: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
     border: solid 5px rgba(0, 0, 0, 0);
-    transition: all 2s;
+    transition: all 1s;
+    font-size: 1.1rem;
 }
 
 .button:hover {
     background-color: var(--primary-800);
     border: solid 5px var(--primary-500);
-    transition: border .5s ease-in-out, background-color .5s ease-in-out, scale .7s ease-in-out;
+    transition: border .5s ease-in-out, background-color .5s ease-in-out, scale .7s ease-in-out width .5s ease-in-out;
     scale: 1.1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 25vw;
+}
+.button-hollow {
+    text-decoration: none;
+    background-color: var(--background-opaque);
+    color: var(--text-950);
+    width: 10vw;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    border: solid 5px var(--background-200);
+    transition: all 1s;
+    font-size: 1.1rem;
+
+}
+
+.button-hollow:hover {
+    background-color: var(--primary-200);
+    border: solid 5px var(--primary-500);
+    transition: border .5s ease-in-out, background-color .5s ease-in-out, scale .7s ease-in-out, width .5s ease-in-out;
+    scale: 1.1;
+    width: 15vw;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

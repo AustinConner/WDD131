@@ -5,56 +5,58 @@ export const dashboardApps = [
     // Productivity Apps (Section: 2344)
     {
         name: "Example App",
-        icon: "https://example.com/favicon.ico",
+        // Using a generic application icon
+        icon: "https://api.iconify.design/mdi:application.svg",
         url: "https://example.com",
         sectionid: "2344",
         id: "45445"
     },
     {
         name: "ChatGPT",
-        icon: "https://chatgpt.com/icon",
+        // Using OpenAI’s logo as a stand-in for ChatGPT
+        icon: "https://api.iconify.design/logos:openai.svg",
         url: "https://chatgpt.com",
         sectionid: "2344",
         id: "293cv"
     },
     {
         name: "Trello",
-        icon: "https://trello.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:trello.svg",
         url: "https://trello.com",
         sectionid: "2344",
         id: "trello343536"
     },
     {
         name: "Asana",
-        icon: "https://asana.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:asana.svg",
         url: "https://asana.com",
         sectionid: "2344",
         id: "asana373839"
     },
     {
         name: "Slack",
-        icon: "https://slack.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:slack.svg",
         url: "https://slack.com",
         sectionid: "2344",
         id: "slack404142"
     },
     {
         name: "Zoom",
-        icon: "https://zoom.us/favicon.ico",
+        icon: "https://api.iconify.design/logos:zoom.svg",
         url: "https://zoom.us",
         sectionid: "2344",
         id: "zoom434445"
     },
     {
         name: "Evernote",
-        icon: "https://evernote.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:evernote.svg",
         url: "https://evernote.com",
         sectionid: "2344",
         id: "evernote464748"
     },
     {
         name: "Dropbox",
-        icon: "https://www.dropbox.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:dropbox.svg",
         url: "https://www.dropbox.com",
         sectionid: "2344",
         id: "dropbox495051"
@@ -63,42 +65,42 @@ export const dashboardApps = [
     // Media & Entertainment (Section: 2345)
     {
         name: "Google",
-        icon: "https://www.google.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:google.svg",
         url: "https://www.google.com",
         sectionid: "2345",
         id: "google123"
     },
     {
         name: "YouTube",
-        icon: "https://www.youtube.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:youtube.svg",
         url: "https://www.youtube.com",
         sectionid: "2345",
         id: "youtube456"
     },
     {
         name: "Spotify",
-        icon: "https://spotify.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:spotify.svg",
         url: "https://spotify.com",
         sectionid: "2345",
         id: "spotify282930"
     },
     {
         name: "Netflix",
-        icon: "https://netflix.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:netflix.svg",
         url: "https://netflix.com",
         sectionid: "2345",
         id: "netflix313233"
     },
     {
         name: "Amazon",
-        icon: "https://www.amazon.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:amazon.svg",
         url: "https://www.amazon.com",
         sectionid: "2345",
         id: "amazon525354"
     },
     {
         name: "eBay",
-        icon: "https://www.ebay.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:ebay.svg",
         url: "https://www.ebay.com",
         sectionid: "2345",
         id: "ebay555657"
@@ -107,56 +109,56 @@ export const dashboardApps = [
     // Developer Tools (Section: 2346)
     {
         name: "GitHub",
-        icon: "https://github.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:github.svg",
         url: "https://github.com",
         sectionid: "2346",
         id: "github789"
     },
     {
         name: "Stack Overflow",
-        icon: "https://stackoverflow.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:stackoverflow.svg",
         url: "https://stackoverflow.com",
         sectionid: "2346",
         id: "so101112"
     },
     {
         name: "Microsoft",
-        icon: "https://microsoft.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:microsoft.svg",
         url: "https://microsoft.com",
         sectionid: "2346",
         id: "microsoft585960"
     },
     {
         name: "Apple",
-        icon: "https://apple.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:apple.svg",
         url: "https://apple.com",
         sectionid: "2346",
         id: "apple616263"
     },
     {
         name: "GitLab",
-        icon: "https://about.gitlab.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:gitlab.svg",
         url: "https://about.gitlab.com",
         sectionid: "2346",
         id: "gitlab646566"
     },
     {
         name: "Bitbucket",
-        icon: "https://bitbucket.org/favicon.ico",
+        icon: "https://api.iconify.design/logos:bitbucket.svg",
         url: "https://bitbucket.org",
         sectionid: "2346",
         id: "bitbucket676869"
     },
     {
         name: "Figma",
-        icon: "https://www.figma.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:figma.svg",
         url: "https://www.figma.com",
         sectionid: "2346",
         id: "figma707172"
     },
     {
         name: "Canva",
-        icon: "https://www.canva.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:canva.svg",
         url: "https://www.canva.com",
         sectionid: "2346",
         id: "canva737475"
@@ -165,35 +167,35 @@ export const dashboardApps = [
     // Social Media (Section: 2347)
     {
         name: "Twitter",
-        icon: "https://twitter.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:twitter.svg",
         url: "https://twitter.com",
         sectionid: "2347",
         id: "twitter131415"
     },
     {
         name: "LinkedIn",
-        icon: "https://linkedin.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:linkedin.svg",
         url: "https://linkedin.com",
         sectionid: "2347",
         id: "linkedin161718"
     },
     {
         name: "Reddit",
-        icon: "https://www.redditstatic.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:reddit.svg",
         url: "https://reddit.com",
         sectionid: "2347",
         id: "reddit192021"
     },
     {
         name: "Instagram",
-        icon: "https://instagram.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:instagram.svg",
         url: "https://instagram.com",
         sectionid: "2347",
         id: "instagram222324"
     },
     {
         name: "Facebook",
-        icon: "https://facebook.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:facebook.svg",
         url: "https://facebook.com",
         sectionid: "2347",
         id: "facebook252627"
@@ -202,63 +204,63 @@ export const dashboardApps = [
     // Cloud Services (Section: 2351)
     {
         name: "AWS",
-        icon: "https://aws.amazon.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:aws.svg",
         url: "https://aws.amazon.com",
         sectionid: "2351",
         id: "aws0001"
     },
     {
         name: "Azure",
-        icon: "https://azure.microsoft.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:microsoft-azure.svg",
         url: "https://azure.microsoft.com",
         sectionid: "2351",
         id: "azure0002"
     },
     {
         name: "Google Cloud",
-        icon: "https://cloud.google.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:google-cloud.svg",
         url: "https://cloud.google.com",
         sectionid: "2351",
         id: "gcloud0003"
     },
     {
         name: "Firebase",
-        icon: "https://firebase.google.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:firebase.svg",
         url: "https://firebase.google.com",
         sectionid: "2351",
         id: "firebase0004"
     },
     {
         name: "DigitalOcean",
-        icon: "https://digitalocean.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:digital-ocean.svg",
         url: "https://digitalocean.com",
         sectionid: "2351",
         id: "digitalocean0005"
     },
     {
         name: "Heroku",
-        icon: "https://heroku.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:heroku.svg",
         url: "https://heroku.com",
         sectionid: "2351",
         id: "heroku0006"
     },
     {
         name: "IBM Cloud",
-        icon: "https://www.ibm.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:ibm.svg",
         url: "https://www.ibm.com/cloud",
         sectionid: "2351",
         id: "ibmcloud0007"
     },
     {
         name: "Oracle Cloud",
-        icon: "https://www.oracle.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:oracle.svg",
         url: "https://www.oracle.com/cloud",
         sectionid: "2351",
         id: "oraclecloud0008"
     },
     {
         name: "Alibaba Cloud",
-        icon: "https://www.alibabacloud.com/favicon.ico",
+        icon: "https://api.iconify.design/logos:alibaba.svg",
         url: "https://www.alibabacloud.com",
         sectionid: "2351",
         id: "alibabacloud0009"

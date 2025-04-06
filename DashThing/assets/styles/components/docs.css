@@ -21,7 +21,6 @@ section {
     gap: 25px;
     border: 2px solid var(--background-200);
     box-shadow: 0 4px 10px var(--shadow-color);
-    transition: all 0.3s ease-in-out;
 }
 
 h1 {
