@@ -4,14 +4,6 @@
 export const dashboardApps = [
     // Productivity Apps (Section: 2344)
     {
-        name: "Example App",
-        // Using a generic application icon
-        icon: "https://api.iconify.design/mdi:application.svg",
-        url: "https://example.com",
-        sectionid: "2344",
-        id: "45445"
-    },
-    {
         name: "ChatGPT",
         // Using OpenAI’s logo as a stand-in for ChatGPT
         icon: "https://api.iconify.design/logos:openai.svg",
@@ -46,13 +38,6 @@ export const dashboardApps = [
         url: "https://zoom.us",
         sectionid: "2344",
         id: "zoom434445"
-    },
-    {
-        name: "Evernote",
-        icon: "https://api.iconify.design/logos:evernote.svg",
-        url: "https://evernote.com",
-        sectionid: "2344",
-        id: "evernote464748"
     },
     {
         name: "Dropbox",
@@ -91,21 +76,6 @@ export const dashboardApps = [
         sectionid: "2345",
         id: "netflix313233"
     },
-    {
-        name: "Amazon",
-        icon: "https://api.iconify.design/logos:amazon.svg",
-        url: "https://www.amazon.com",
-        sectionid: "2345",
-        id: "amazon525354"
-    },
-    {
-        name: "eBay",
-        icon: "https://api.iconify.design/logos:ebay.svg",
-        url: "https://www.ebay.com",
-        sectionid: "2345",
-        id: "ebay555657"
-    },
-
     // Developer Tools (Section: 2346)
     {
         name: "GitHub",
@@ -156,13 +126,6 @@ export const dashboardApps = [
         sectionid: "2346",
         id: "figma707172"
     },
-    {
-        name: "Canva",
-        icon: "https://api.iconify.design/logos:canva.svg",
-        url: "https://www.canva.com",
-        sectionid: "2346",
-        id: "canva737475"
-    },
 
     // Social Media (Section: 2347)
     {
@@ -185,13 +148,6 @@ export const dashboardApps = [
         url: "https://reddit.com",
         sectionid: "2347",
         id: "reddit192021"
-    },
-    {
-        name: "Instagram",
-        icon: "https://api.iconify.design/logos:instagram.svg",
-        url: "https://instagram.com",
-        sectionid: "2347",
-        id: "instagram222324"
     },
     {
         name: "Facebook",
@@ -257,13 +213,6 @@ export const dashboardApps = [
         url: "https://www.oracle.com/cloud",
         sectionid: "2351",
         id: "oraclecloud0008"
-    },
-    {
-        name: "Alibaba Cloud",
-        icon: "https://api.iconify.design/logos:alibaba.svg",
-        url: "https://www.alibabacloud.com",
-        sectionid: "2351",
-        id: "alibabacloud0009"
     }
 ];
 
